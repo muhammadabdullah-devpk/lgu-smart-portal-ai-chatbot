@@ -1,0 +1,2183 @@
+{
+    "intents": [
+        {
+            "tag": "general_info_what_is_lgu",
+            "patterns": [
+                "What is Lahore Garrison University (LGU)?",
+                "Tell me about LGU",
+                "What kind of university is LGU?"
+            ],
+            "responses": [
+                "LGU is a recognized private university in Lahore offering undergraduate, graduate, and postgraduate programs across multiple disciplines."
+            ]
+        },
+        {
+            "tag": "Chatbot Name",
+            "patterns": [
+                "What's your name?",
+                "What should we call you?",
+                "Who are you?"
+            ],
+            "responses": [
+                "I don’t have an official name, but some people like to call me the LGU Assistant, ready to help with a smile!"
+            ]
+        },
+        {
+            "tag": "general_info_lgu_location",
+            "patterns": [
+                "Where is LGU located?",
+                "What is the address of Lahore Garrison University?",
+                "LGU location"
+            ],
+            "responses": [
+                "LGU is located in DHA Phase‑VI Sector C, Lahore, Punjab, Pakistan."
+            ]
+        },
+        {
+            "tag": "general_info_lgu_established",
+            "patterns": [
+                "When was LGU established?",
+                "LGU establishment year"
+            ],
+            "responses": [
+                "LGU was established in 2010."
+            ]
+        },
+        {
+            "tag": "general_info_lgu_hec_recognition",
+            "patterns": [
+                "Is LGU recognized by HEC?",
+                "Is Lahore Garrison University HEC recognized?"
+            ],
+            "responses": [
+                "Yes — LGU is recognized by the Higher Education Commission of Pakistan."
+            ]
+        },
+        {
+            "tag": "general_info_lgu_motto",
+            "patterns": [
+                "What is the motto of LGU?",
+                "LGU's slogan"
+            ],
+            "responses": [
+                "“Nurturing the Future of Pakistan in an Excellent Environment.”"
+            ]
+        },
+        {
+            "tag": "general_info_lgu_website",
+            "patterns": [
+                "What is the official website of LGU?",
+                "LGU website link"
+            ],
+            "responses": [
+                "The official website of LGU is https://www.lgu.edu.pk"
+            ]
+        },
+        {
+            "tag": "general_info_lgu_contact",
+            "patterns": [
+                "How can I contact LGU?",
+                "LGU contact number and email"
+            ],
+            "responses": [
+                "You can contact LGU at +92‑42‑37181827 or via email at info@lgu.edu.pk"
+            ]
+        },
+        {
+            "tag": "general_info_lgu_alumni",
+            "patterns": [
+                "Does LGU have an alumni network?",
+                "LGU alumni portal"
+            ],
+            "responses": [
+                "Yes — LGU’s Alumni Portal allows graduates to stay connected and network."
+            ]
+        },
+        {
+            "tag": "general_info_lgu_research_journals",
+            "patterns": [
+                "Does LGU publish research journals?",
+                "LGU academic publications"
+            ],
+            "responses": [
+                "Yes — LGU publishes several research journals across departments."
+            ]
+        },
+        {
+            "tag": "general_info_lgu_faculties",
+            "patterns": [
+                "What are the faculties of LGU?",
+                "List of LGU faculties"
+            ],
+            "responses": [
+                "LGU has four main faculties: Social Sciences, Computer Sciences, Languages, and Basic Sciences."
+            ]
+        },
+        {
+            "tag": "admissions_how_to_apply",
+            "patterns": [
+                "How do I apply for admission?",
+                "How to apply",
+                "LGU admission application process"
+            ],
+            "responses": [
+                "You can apply online through the LGU Admissions Portal."
+            ]
+        },
+        {
+            "tag": "admissions_required_documents",
+            "patterns": [
+                "What documents are required for admission?",
+                "Documents needed for LGU admission"
+            ],
+            "responses": [
+                "Academic transcripts, ID (B-form/CNIC), photographs, and other program-specific documents are required."
+            ]
+        },
+        {
+            "tag": "admissions_multiple_programs",
+            "patterns": [
+                "Can I apply for more than one program?",
+                "Applying to multiple LGU programs"
+            ],
+            "responses": [
+                "One application per program is generally allowed."
+            ]
+        },
+        {
+            "tag": "admissions_ug_eligibility",
+            "patterns": [
+                "What is the minimum eligibility for undergraduate admission?",
+                "Minimum marks for BS admission at LGU",
+                "What is admision ciretria in lgu "
+            ],
+            "responses": [
+                "The minimum eligibility is 50% marks in the previous level (matric/intermediate), depending on the program."
+            ]
+        },
+        {
+            "tag": "admissions_grad_eligibility",
+            "patterns": [
+                "What is the minimum eligibility for graduate admission?",
+                "Minimum CGPA for MS/MPhil admission at LGU"
+            ],
+            "responses": [
+                "The minimum eligibility for graduate admission is a Bachelor’s degree with at least 2.0 CGPA or equivalent marks."
+            ]
+        },
+        {
+            "tag": "admissions_entrance_test",
+            "patterns": [
+                "Is there an entrance test?",
+                "Does LGU require an entry test?"
+            ],
+            "responses": [
+                "Some programs may require entry tests or interviews."
+            ]
+        },
+        {
+            "tag": "admissions_check_status",
+            "patterns": [
+                "How can I check my admission status?",
+                "Check LGU application status"
+            ],
+            "responses": [
+                "Log in to the admissions portal and select “Check Admission Status.”"
+            ]
+        },
+        {
+            "tag": "admissions_on_merit_status",
+            "patterns": [
+                "What does “On Merit” status mean?",
+                "What is merit of lgu ",
+                "Meaning of 'On Merit' in LGU admission"
+            ],
+            "responses": [
+                "It means your application has been shortlisted based on academic performance."
+            ]
+        },
+        {
+            "tag": "admissions_edit_application",
+            "patterns": [
+                "How can I edit my application?",
+                "Change LGU admission form details"
+            ],
+            "responses": [
+                "Use the “Edit Application” feature on the admissions portal before the deadline."
+            ]
+        },
+        {
+            "tag": "admissions_merit_list_timing",
+            "patterns": [
+                "When are merit lists published?",
+                "LGU merit list announcement date"
+            ],
+            "responses": [
+                "Merit lists are posted on the portal once evaluations are complete."
+            ]
+        },
+        {
+            "tag": "admissions_scholarship_application",
+            "patterns": [
+                "Can I apply for scholarships during admission?",
+                "Scholarship application with admission form",
+                "does lgu provide scholarship"
+            ],
+            "responses": [
+                "Yes — scholarship applications can be submitted with the admission form."
+            ]
+        },
+        {
+            "tag": "admissions_defence_concessions",
+            "patterns": [
+                "Are there concessions for defence personnel?",
+                "Fee concession for armed forces wards at LGU"
+            ],
+            "responses": [
+                "Yes — wards of armed forces may receive fee concessions."
+            ]
+        },
+        {
+            "tag": "admissions_spring_deadline",
+            "patterns": [
+                "What is the Spring admission deadline?",
+                "Deadline for LGU Spring admissions"
+            ],
+            "responses": [
+                "Exact dates are published on the portal each semester."
+            ]
+        },
+        {
+            "tag": "admissions_international_students",
+            "patterns": [
+                "Can international students apply?",
+                "LGU admission for foreign students"
+            ],
+            "responses": [
+                "Yes — international students can apply following the same portal procedure."
+            ]
+        },
+        {
+            "tag": "admissions_age_limits",
+            "patterns": [
+                "Are there age limits for admission?",
+                "LGU age restriction for students"
+            ],
+            "responses": [
+                "No strict age limits; eligibility is based on academic qualifications."
+            ]
+        },
+        {
+            "tag": "programs_bs_offered",
+            "patterns": [
+                "Which BS programs are offered?",
+                "List of undergraduate programs at LGU"
+            ],
+            "responses": [
+                "BS Computer Science, Software Engineering, IT, Psychology, Mass Communication, Economics, and more are offered."
+            ]
+        },
+        {
+            "tag": "programs_ms_mphil_offered",
+            "patterns": [
+                "Are MS/MPhil programs offered?",
+                "LGU graduate programs"
+            ],
+            "responses": [
+                "Yes — LGU offers MS/MPhil programs in selected departments."
+            ]
+        },
+        {
+            "tag": "programs_mba_offered",
+            "patterns": [
+                "Are MBA programs available?",
+                "Does LGU have an MBA program?"
+            ],
+            "responses": [
+                "Yes — LGU offers MBA programs."
+            ]
+        },
+        {
+            "tag": "programs_switch_majors",
+            "patterns": [
+                "Can I switch majors after admission?",
+                "Changing department at LGU"
+            ],
+            "responses": [
+                "Department changes are subject to availability and approval."
+            ]
+        },
+        {
+            "tag": "programs_list_departments",
+            "patterns": [
+                "How can I see the list of departments?",
+                "Where to find LGU departments list"
+            ],
+            "responses": [
+                "Departments are listed on the official website and student portal."
+            ]
+        },
+        {
+            "tag": "programs_short_courses",
+            "patterns": [
+                "Are there short courses or diplomas?",
+                "LGU diplomas and certifications"
+            ],
+            "responses": [
+                "Yes — LGU may offer short courses; check announcements on the portal."
+            ]
+        },
+        {
+            "tag": "programs_online_hybrid",
+            "patterns": [
+                "Are online or hybrid programs available?",
+                "Does LGU offer distance learning?"
+            ],
+            "responses": [
+                "LGU primarily offers on-campus programs; check portal for updates."
+            ]
+        },
+        {
+            "tag": "programs_multiple_simultaneously",
+            "patterns": [
+                "Can I enroll in multiple programs simultaneously?",
+                "Studying two programs at once at LGU"
+            ],
+            "responses": [
+                "No — students are generally allowed only one active program at a time."
+            ]
+        },
+        {
+            "tag": "programs_professional_certifications",
+            "patterns": [
+                "Does LGU offer professional certifications?",
+                "Certifications offered by LGU"
+            ],
+            "responses": [
+                "Some departments offer certifications in addition to degrees."
+            ]
+        },
+        {
+            "tag": "programs_evening_weekend",
+            "patterns": [
+                "Are evening or weekend programs offered?",
+                "LGU part-time programs"
+            ],
+            "responses": [
+                "Currently, most programs are daytime; check portal for special programs."
+            ]
+        },
+        {
+            "tag": "fee_bs_program",
+            "patterns": [
+                "What is the BS program fee?",
+                "Fee structure for BSCS at LGU"
+            ],
+            "responses": [
+                "BSCS and similar programs cost approximately PKR 115,000 per semester plus miscellaneous charges."
+            ]
+        },
+        {
+            "tag": "fee_program_variation",
+            "patterns": [
+                "Are fees different for other programs?",
+                "Do LGU fees vary by program?"
+            ],
+            "responses": [
+                "Yes — fees vary by program and level."
+            ]
+        },
+        {
+            "tag": "fee_online_payment",
+            "patterns": [
+                "Can I pay fees online?",
+                "LGU online fee payment methods"
+            ],
+            "responses": [
+                "Yes — you can pay via online banking, 1Link, PayPro, or the finance office."
+            ]
+        },
+        {
+            "tag": "scholarships_available",
+            "patterns": [
+                "Are scholarships available?",
+                "What kind of scholarships does LGU offer?"
+            ],
+            "responses": [
+                "Yes — LGU offers Merit, Defence, Garrisonian, LGU Employee, Sports-based, and Need-based scholarships."
+            ]
+        },
+        {
+            "tag": "scholarships_how_to_apply",
+            "patterns": [
+                "How do I apply for a scholarship?",
+                "Scholarship application process at LGU"
+            ],
+            "responses": [
+                "Submit required documents with the financial assistance office during or after admission."
+            ]
+        },
+        {
+            "tag": "fee_refund_policy",
+            "patterns": [
+                "Can I get a fee refund if I withdraw?",
+                "LGU withdrawal and refund policy"
+            ],
+            "responses": [
+                "Refund policies are published on the admissions portal; contact the finance office."
+            ]
+        },
+        {
+            "tag": "fee_installments",
+            "patterns": [
+                "Are installments allowed?",
+                "Can I pay LGU fees in installments?"
+            ],
+            "responses": [
+                "Yes — some programs allow fee installments; confirm with the finance office."
+            ]
+        },
+        {
+            "tag": "scholarships_sports",
+            "patterns": [
+                "Are there sports scholarships?",
+                "Scholarships for athletes at LGU"
+            ],
+            "responses": [
+                "Yes — sports scholarships are available for outstanding athletes."
+            ]
+        },
+        {
+            "tag": "scholarships_need_based",
+            "patterns": [
+                "Are need-based scholarships available?",
+                "Financial aid for students at LGU"
+            ],
+            "responses": [
+                "Yes — need-based scholarships are available for students with financial challenges."
+            ]
+        },
+        {
+            "tag": "scholarships_defence_separate",
+            "patterns": [
+                "Are defence scholarships separate?",
+                "Defence scholarship details"
+            ],
+            "responses": [
+                "Yes — defence scholarships are available for wards of armed forces."
+            ]
+        },
+        {
+            "tag": "scholarships_employee_children",
+            "patterns": [
+                "Are employees’ children eligible for concessions?",
+                "Fee concession for LGU employee children"
+            ],
+            "responses": [
+                "Yes — LGU employees’ children may receive fee concessions."
+            ]
+        },
+        {
+            "tag": "portal_login",
+            "patterns": [
+                "How do I log in to the student portal?",
+                "LGU student portal login credentials"
+            ],
+            "responses": [
+                "Use your student ID and password provided at admission on the LGU portal."
+            ]
+        },
+        {
+            "tag": "portal_features",
+            "patterns": [
+                "What can I do on the student portal?",
+                "Features of the LGU student portal"
+            ],
+            "responses": [
+                "You can check admission status, view timetables, pay fees, access grades, download transcripts, and submit requests on the student portal."
+            ]
+        },
+        {
+            "tag": "portal_reset_password",
+            "patterns": [
+                "How do I reset my portal password?",
+                "Forgot LGU portal password"
+            ],
+            "responses": [
+                "Click “Forgot Password” on the portal login page and follow instructions."
+            ]
+        },
+        {
+            "tag": "portal_update_info",
+            "patterns": [
+                "Can I update my personal information on the portal?",
+                "Change contact details on LGU portal"
+            ],
+            "responses": [
+                "Yes — you can update contact details, emergency contacts, and address."
+            ]
+        },
+        {
+            "tag": "portal_check_fee_status",
+            "patterns": [
+                "How can I check my fee status?",
+                "View paid and pending fees on LGU portal"
+            ],
+            "responses": [
+                "Log in to the portal and select “Finance” to see paid and pending fees."
+            ]
+        },
+        {
+            "tag": "portal_view_schedule",
+            "patterns": [
+                "How can I view my class schedule?",
+                "LGU timetable on student portal"
+            ],
+            "responses": [
+                "The portal provides a timetable section with course schedules and lecture rooms."
+            ]
+        },
+        {
+            "tag": "portal_course_registration",
+            "patterns": [
+                "Can I register for courses online?",
+                "Online course registration at LGU"
+            ],
+            "responses": [
+                "Yes — registration is done through the portal during the course registration period."
+            ]
+        },
+        {
+            "tag": "portal_transcript_request",
+            "patterns": [
+                "How do I apply for transcripts via the portal?",
+                "Requesting academic transcripts from LGU"
+            ],
+            "responses": [
+                "Use the “Transcript Request” feature, fill the form, and pay any applicable fee."
+            ]
+        },
+        {
+            "tag": "portal_submit_complaints",
+            "patterns": [
+                "Can I submit complaints online?",
+                "LGU online feedback or complaint submission"
+            ],
+            "responses": [
+                "Yes — the portal has a feedback or complaint submission section."
+            ]
+        },
+        {
+            "tag": "portal_access_results",
+            "patterns": [
+                "How do I access academic results?",
+                "Where to find LGU exam results"
+            ],
+            "responses": [
+                "Results are published on the student portal under the “Grades” section."
+            ]
+        },
+        {
+            "tag": "academic_fall_semester_start",
+            "patterns": [
+                "When does the Fall semester start?",
+                "LGU Fall semester start date"
+            ],
+            "responses": [
+                "Dates are published each year on the official academic calendar."
+            ]
+        },
+        {
+            "tag": "academic_spring_semester_start",
+            "patterns": [
+                "When does the Spring semester start?",
+                "LGU Spring semester start date"
+            ],
+            "responses": [
+                "Refer to the portal; exact dates are updated annually."
+            ]
+        },
+        {
+            "tag": "academic_semester_duration",
+            "patterns": [
+                "How long is each semester?",
+                "Duration of LGU semester"
+            ],
+            "responses": [
+                "Typically 16–18 weeks, including exams."
+            ]
+        },
+        {
+            "tag": "academic_leave_of_absence",
+            "patterns": [
+                "Can I take a leave of absence?",
+                "How to apply for a leave of absence at LGU"
+            ],
+            "responses": [
+                "Yes — submit a leave request through the portal or academic office."
+            ]
+        },
+        {
+            "tag": "academic_course_prerequisites",
+            "patterns": [
+                "How do I know the course prerequisites?",
+                "Where to find LGU course prerequisites"
+            ],
+            "responses": [
+                "Prerequisites are listed in the course catalog on the portal."
+            ]
+        },
+        {
+            "tag": "academic_choose_electives",
+            "patterns": [
+                "Can I choose electives?",
+                "LGU elective courses"
+            ],
+            "responses": [
+                "Yes — electives are offered depending on program requirements."
+            ]
+        },
+        {
+            "tag": "academic_credit_hours",
+            "patterns": [
+                "How many credit hours per semester are required?",
+                "Required credit hours at LGU"
+            ],
+            "responses": [
+                "Typically 15–18 credit hours; confirm with your program guide."
+            ]
+        },
+        {
+            "tag": "academic_additional_courses",
+            "patterns": [
+                "Can I take additional courses in a semester?",
+                "Overloading courses at LGU"
+            ],
+            "responses": [
+                "Yes — with approval from the academic advisor and if workload allows."
+            ]
+        },
+        {
+            "tag": "academic_summer_courses",
+            "patterns": [
+                "Are summer courses offered?",
+                "LGU summer semester"
+            ],
+            "responses": [
+                "Yes — occasionally; check the portal announcements."
+            ]
+        },
+        {
+            "tag": "academic_repeat_course",
+            "patterns": [
+                "Can I repeat a course if I fail?",
+                "Retaking a failed course at LGU"
+            ],
+            "responses": [
+                "Yes — failed courses can be retaken in subsequent semesters."
+            ]
+        },
+        {
+            "tag": "academic_add_drop_course",
+            "patterns": [
+                "How do I add or drop a course?",
+                "LGU add/drop period"
+            ],
+            "responses": [
+                "Submit an add/drop form via the portal within the allowed period."
+            ]
+        },
+        {
+            "tag": "academic_cross_department_courses",
+            "patterns": [
+                "Can I take courses from another department?",
+                "Taking courses outside my major at LGU"
+            ],
+            "responses": [
+                "Yes — with departmental approval, depending on prerequisites."
+            ]
+        },
+        {
+            "tag": "academic_lab_sessions",
+            "patterns": [
+                "Are there lab sessions for practical courses?",
+                "LGU lab schedules"
+            ],
+            "responses": [
+                "Yes — lab schedules are published with course timetables."
+            ]
+        },
+        {
+            "tag": "academic_course_materials",
+            "patterns": [
+                "How can I access course materials?",
+                "LGU Learning Management System (LMS)"
+            ],
+            "responses": [
+                "Via the Learning Management System (LMS) or portal."
+            ]
+        },
+        {
+            "tag": "academic_required_textbooks",
+            "patterns": [
+                "How do I know which textbooks are required?",
+                "LGU course textbook list"
+            ],
+            "responses": [
+                "Textbooks are listed in the course syllabus or portal."
+            ]
+        },
+        {
+            "tag": "exams_conduct",
+            "patterns": [
+                "How are exams conducted at LGU?",
+                "LGU examination process"
+            ],
+            "responses": [
+                "Exams are held at the end of each semester; some programs may include midterms, quizzes, and lab assessments."
+            ]
+        },
+        {
+            "tag": "exams_grading_system",
+            "patterns": [
+                "What is the grading system?",
+                "LGU CGPA system"
+            ],
+            "responses": [
+                "LGU uses a CGPA system, typically 4.0 scale, with letter grades (A, B, C, D, F)."
+            ]
+        },
+        {
+            "tag": "exams_minimum_passing_grade",
+            "patterns": [
+                "What is the minimum passing grade?",
+                "Minimum grade to pass a course at LGU"
+            ],
+            "responses": [
+                "Typically a CGPA of 2.0 or grade D is required to pass a course."
+            ]
+        },
+        {
+            "tag": "exams_apply_rechecking",
+            "patterns": [
+                "How do I apply for rechecking?",
+                "LGU exam rechecking procedure"
+            ],
+            "responses": [
+                "Submit a rechecking request form to the registrar with applicable fees."
+            ]
+        },
+        {
+            "tag": "exams_postponement",
+            "patterns": [
+                "Can I apply for exam postponement?",
+                "Postpone LGU exam"
+            ],
+            "responses": [
+                "Yes — under valid circumstances; request via the academic office."
+            ]
+        },
+        {
+            "tag": "exams_results_announcement",
+            "patterns": [
+                "When are results announced?",
+                "LGU results date"
+            ],
+            "responses": [
+                "Results are posted on the student portal after grading."
+            ]
+        },
+        {
+            "tag": "exams_cgpa_calculation",
+            "patterns": [
+                "How is CGPA calculated?",
+                "Formula for CGPA at LGU"
+            ],
+            "responses": [
+                "CGPA = Total grade points earned / Total credit hours attempted."
+            ]
+        },
+        {
+            "tag": "exams_make_up",
+            "patterns": [
+                "Are make-up exams allowed?",
+                "LGU missed exam policy"
+            ],
+            "responses": [
+                "Yes — if missed for valid reasons approved by the academic office."
+            ]
+        },
+        {
+            "tag": "exams_fail_semester_policy",
+            "patterns": [
+                "What happens if I fail a semester?",
+                "LGU policy on failing courses"
+            ],
+            "responses": [
+                "You may retake failed courses; repeated attempts are recorded per policy."
+            ]
+        },
+        {
+            "tag": "exams_appeal_grade",
+            "patterns": [
+                "Can I appeal my grade?",
+                "LGU grade appeal process"
+            ],
+            "responses": [
+                "Yes — grade appeal forms are available from the registrar."
+            ]
+        },
+        {
+            "tag": "exams_lab_grading",
+            "patterns": [
+                "How are practical/lab courses graded?",
+                "Grading criteria for LGU lab courses"
+            ],
+            "responses": [
+                "Labs are graded based on attendance, practical work, reports, and final assessment."
+            ]
+        },
+        {
+            "tag": "exams_quizzes_assignments_weight",
+            "patterns": [
+                "Are quizzes and assignments included in grades?",
+                "Weight of assignments in LGU grading"
+            ],
+            "responses": [
+                "Yes — continuous assessment counts toward final grades."
+            ]
+        },
+        {
+            "tag": "exams_view_past_grades",
+            "patterns": [
+                "Can I view my past semester grades?",
+                "Accessing old LGU grades"
+            ],
+            "responses": [
+                "Yes — you can view your past semester grades via the student portal."
+            ]
+        },
+        {
+            "tag": "exams_academic_probation",
+            "patterns": [
+                "What is the policy for academic probation?",
+                "LGU probation rules"
+            ],
+            "responses": [
+                "Students below minimum CGPA are placed on probation and must improve in the next semester."
+            ]
+        },
+        {
+            "tag": "exams_graduate_with_honors",
+            "patterns": [
+                "Can I graduate with honors?",
+                "LGU honors degree requirements"
+            ],
+            "responses": [
+                "Yes — graduation with honors is based on CGPA thresholds defined in the program policy."
+            ]
+        },
+        {
+            "tag": "hostel_availability",
+            "patterns": [
+                "Does LGU have hostels?",
+                "LGU on-campus accommodation"
+            ],
+            "responses": [
+                "Yes — hostels are available for male and female students; apply through the hostel office."
+            ]
+        },
+        {
+            "tag": "hostel_application",
+            "patterns": [
+                "How can I apply for hostel accommodation?",
+                "Hostel application process at LGU"
+            ],
+            "responses": [
+                "Submit an application form via the student portal or at the hostel office."
+            ]
+        },
+        {
+            "tag": "hostel_room_type",
+            "patterns": [
+                "Are hostel rooms shared or single?",
+                "LGU hostel room options"
+            ],
+            "responses": [
+                "Rooms are generally shared; some single rooms may be available."
+            ]
+        },
+        {
+            "tag": "hostel_compulsory",
+            "patterns": [
+                "Is hostel accommodation compulsory?",
+                "Do I have to live in the LGU hostel?"
+            ],
+            "responses": [
+                "No — accommodation is optional."
+            ]
+        },
+        {
+            "tag": "hostel_rent",
+            "patterns": [
+                "How much is hostel rent?",
+                "LGU hostel fees"
+            ],
+            "responses": [
+                "Hostel fees vary; check with the hostel office or student portal."
+            ]
+        },
+        {
+            "tag": "hostel_meals",
+            "patterns": [
+                "Are meals provided in hostels?",
+                "LGU hostel mess facilities"
+            ],
+            "responses": [
+                "Yes — some hostels provide mess facilities; confirm with hostel administration."
+            ]
+        },
+        {
+            "tag": "transport_availability",
+            "patterns": [
+                "Does LGU provide transport services?",
+                "LGU bus service"
+            ],
+            "responses": [
+                "Yes — buses are available on some routes for students."
+            ]
+        },
+        {
+            "tag": "transport_registration",
+            "patterns": [
+                "How can I use LGU transport?",
+                "Register for LGU transport"
+            ],
+            "responses": [
+                "Register with the transport office and pay applicable transport fees."
+            ]
+        },
+        {
+            "tag": "transport_compulsory",
+            "patterns": [
+                "Are transport services compulsory?",
+                "Do I have to use LGU transport?"
+            ],
+            "responses": [
+                "No — using transport is optional."
+            ]
+        },
+        {
+            "tag": "transport_late_night",
+            "patterns": [
+                "Are there late-night transport services?",
+                "LGU transport after hours"
+            ],
+            "responses": [
+                "No — transport services operate during scheduled hours only."
+            ]
+        },
+        {
+            "tag": "transport_personal_vehicle",
+            "patterns": [
+                "Can I bring my own vehicle to campus?",
+                "Student parking at LGU"
+            ],
+            "responses": [
+                "Yes — students can park on campus with proper permits."
+            ]
+        },
+        {
+            "tag": "hostel_transport_security",
+            "patterns": [
+                "Is there security for hostel and campus transport?",
+                "LGU security measures"
+            ],
+            "responses": [
+                "Yes — security is provided for campus buildings, hostels, and transport."
+            ]
+        },
+        {
+            "tag": "transport_route_change",
+            "patterns": [
+                "Can I request changes in bus routes?",
+                "LGU bus route modification"
+            ],
+            "responses": [
+                "Requests can be submitted to the transport office, subject to approval."
+            ]
+        },
+        {
+            "tag": "transport_fee_included",
+            "patterns": [
+                "Is transport included in tuition fees?",
+                "Are transport fees separate from tuition?"
+            ],
+            "responses": [
+                "No — transport fees are separate."
+            ]
+        },
+        {
+            "tag": "facilities_library",
+            "patterns": [
+                "Does LGU have a library?",
+                "LGU central library"
+            ],
+            "responses": [
+                "Yes — LGU has a central library with books, journals, and online resources."
+            ]
+        },
+        {
+            "tag": "facilities_computer_labs",
+            "patterns": [
+                "Are there computer labs?",
+                "LGU IT labs"
+            ],
+            "responses": [
+                "Yes — labs are available for Computer Science, IT, and related courses."
+            ]
+        },
+        {
+            "tag": "facilities_science_labs",
+            "patterns": [
+                "Are science labs available?",
+                "LGU Chemistry, Physics, and Biology labs"
+            ],
+            "responses": [
+                "Yes — Chemistry, Physics, and Biology labs are equipped for practicals."
+            ]
+        },
+        {
+            "tag": "facilities_lab_after_hours",
+            "patterns": [
+                "Can students access labs after hours?",
+                "LGU lab access timing"
+            ],
+            "responses": [
+                "Labs are accessible during scheduled times; special requests require permission."
+            ]
+        },
+        {
+            "tag": "facilities_wifi",
+            "patterns": [
+                "Does LGU provide Wi-Fi on campus?",
+                "LGU campus internet access"
+            ],
+            "responses": [
+                "Yes — Wi-Fi is available for students and faculty."
+            ]
+        },
+        {
+            "tag": "facilities_printing_photocopy",
+            "patterns": [
+                "Are printing and photocopy facilities available?",
+                "LGU printing services"
+            ],
+            "responses": [
+                "Yes — library and lab areas provide printing/photocopy services."
+            ]
+        },
+        {
+            "tag": "facilities_auditoriums",
+            "patterns": [
+                "Are auditoriums available for events?",
+                "LGU event venues"
+            ],
+            "responses": [
+                "Yes — auditoriums host seminars, workshops, and events."
+            ]
+        },
+        {
+            "tag": "facilities_sports",
+            "patterns": [
+                "Are sports facilities available?",
+                "LGU gym and sports grounds"
+            ],
+            "responses": [
+                "Yes — gym, football ground, and indoor games facilities are available."
+            ]
+        },
+        {
+            "tag": "facilities_cafeteria",
+            "patterns": [
+                "Does LGU have a cafeteria?",
+                "LGU campus food services"
+            ],
+            "responses": [
+                "Yes — campus cafeterias provide food and beverages."
+            ]
+        },
+        {
+            "tag": "facilities_medical_unit",
+            "patterns": [
+                "Is there a medical unit on campus?",
+                "LGU emergency medical support"
+            ],
+            "responses": [
+                "Yes — basic medical facilities and emergency support are available."
+            ]
+        },
+        {
+            "tag": "library_borrow_books",
+            "patterns": [
+                "Can I borrow books from the library?",
+                "LGU library book borrowing rules"
+            ],
+            "responses": [
+                "Yes — registered students can borrow books following library rules."
+            ]
+        },
+        {
+            "tag": "library_digital_resources",
+            "patterns": [
+                "Are digital resources available?",
+                "LGU e-books and online databases"
+            ],
+            "responses": [
+                "Yes — e-books, journals, and online databases are accessible."
+            ]
+        },
+        {
+            "tag": "library_study_rooms",
+            "patterns": [
+                "Are study rooms available?",
+                "LGU library study areas"
+            ],
+            "responses": [
+                "Yes — the library has study rooms for individual or group study."
+            ]
+        },
+        {
+            "tag": "facilities_lab_assistants",
+            "patterns": [
+                "Are lab assistants available for practical sessions?",
+                "LGU lab staff support"
+            ],
+            "responses": [
+                "Yes — lab staff assist students during scheduled lab hours."
+            ]
+        },
+        {
+            "tag": "facilities_suggestions",
+            "patterns": [
+                "Can students suggest new equipment or books?",
+                "LGU suggestion box for library/labs"
+            ],
+            "responses": [
+                "Yes — suggestions can be submitted via the library or lab offices."
+            ]
+        },
+        {
+            "tag": "library_membership",
+            "patterns": [
+                "How do I get a library membership?",
+                "LGU library access for students"
+            ],
+            "responses": [
+                "All enrolled students are automatically registered for library access."
+            ]
+        },
+        {
+            "tag": "library_online_access",
+            "patterns": [
+                "Can I access the library online?",
+                "LGU digital library access"
+            ],
+            "responses": [
+                "Yes — digital resources are available via the LMS/portal."
+            ]
+        },
+        {
+            "tag": "library_journals_papers",
+            "patterns": [
+                "Are journals and research papers available?",
+                "LGU research material access"
+            ],
+            "responses": [
+                "Yes — print and digital journals are accessible to students and faculty."
+            ]
+        },
+        {
+            "tag": "library_interlibrary_loans",
+            "patterns": [
+                "Can I request interlibrary loans?",
+                "LGU interlibrary loan policy"
+            ],
+            "responses": [
+                "Yes — subject to library policies."
+            ]
+        },
+        {
+            "tag": "research_workshops",
+            "patterns": [
+                "Are research workshops organized?",
+                "LGU research support workshops"
+            ],
+            "responses": [
+                "Yes — LGU organizes workshops to support student and faculty research."
+            ]
+        },
+        {
+            "tag": "research_publication_submission",
+            "patterns": [
+                "Can I submit my research for publication at LGU?",
+                "LGU research publication guidelines"
+            ],
+            "responses": [
+                "Yes — guidelines are available via respective department offices."
+            ]
+        },
+        {
+            "tag": "research_plagiarism_checks",
+            "patterns": [
+                "Are plagiarism checks mandatory?",
+                "LGU anti-plagiarism policy"
+            ],
+            "responses": [
+                "Yes — all research submissions must comply with anti-plagiarism policies."
+            ]
+        },
+        {
+            "tag": "research_reference_tools",
+            "patterns": [
+                "Are reference management tools provided?",
+                "LGU support for citation tools"
+            ],
+            "responses": [
+                "Yes — students can use tools recommended by the library."
+            ]
+        },
+        {
+            "tag": "library_study_guides",
+            "patterns": [
+                "Does the library have study guides?",
+                "LGU library academic support"
+            ],
+            "responses": [
+                "Yes — study guides are available for reference and academic support."
+            ]
+        },
+        {
+            "tag": "research_supervision",
+            "patterns": [
+                "Can students get research supervision?",
+                "LGU faculty research guidance"
+            ],
+            "responses": [
+                "Yes — faculty members guide research projects for undergrad and graduate students."
+            ]
+        },
+        {
+            "tag": "career_counseling",
+            "patterns": [
+                "Does LGU provide career counseling?",
+                "LGU career guidance services"
+            ],
+            "responses": [
+                "Yes — career guidance and counseling services are available."
+            ]
+        },
+        {
+            "tag": "career_internships_mandatory",
+            "patterns": [
+                "Are internships mandatory?",
+                "Is an internship required for my LGU degree?"
+            ],
+            "responses": [
+                "Some programs require internships as part of the curriculum."
+            ]
+        },
+        {
+            "tag": "career_internship_application",
+            "patterns": [
+                "How do I apply for internships?",
+                "LGU internship application process"
+            ],
+            "responses": [
+                "Through the career office or department announcements."
+            ]
+        },
+        {
+            "tag": "career_placement_opportunities",
+            "patterns": [
+                "Are placement opportunities provided?",
+                "LGU job placement services"
+            ],
+            "responses": [
+                "Yes — LGU connects students with industry partners for job placements."
+            ]
+        },
+        {
+            "tag": "career_fairs",
+            "patterns": [
+                "Are career fairs organized?",
+                "LGU employer interaction sessions"
+            ],
+            "responses": [
+                "Yes — LGU organizes career fairs and employer interaction sessions."
+            ]
+        },
+        {
+            "tag": "career_alumni_support",
+            "patterns": [
+                "Can alumni support current students in career guidance?",
+                "Alumni mentorship for LGU students"
+            ],
+            "responses": [
+                "Yes — the alumni network assists in mentorship and guidance."
+            ]
+        },
+        {
+            "tag": "career_resume_support",
+            "patterns": [
+                "Does LGU provide resume-building support?",
+                "LGU CV and resume workshops"
+            ],
+            "responses": [
+                "Yes — workshops and career counseling assist with resumes and CVs."
+            ]
+        },
+        {
+            "tag": "career_mock_interviews",
+            "patterns": [
+                "Are mock interviews conducted?",
+                "LGU soft skill sessions"
+            ],
+            "responses": [
+                "Yes — mock interviews and soft skill sessions are available."
+            ]
+        },
+        {
+            "tag": "career_letters_of_recommendation",
+            "patterns": [
+                "Can I get letters of recommendation?",
+                "LGU faculty recommendation letters"
+            ],
+            "responses": [
+                "Yes — faculty can provide letters for jobs or higher studies."
+            ]
+        },
+        {
+            "tag": "career_entrepreneurship_support",
+            "patterns": [
+                "Is there support for entrepreneurship?",
+                "LGU startup guidance programs"
+            ],
+            "responses": [
+                "Yes — LGU encourages startups and entrepreneurial projects via guidance programs."
+            ]
+        },
+        {
+            "tag": "student_societies",
+            "patterns": [
+                "Are there student societies at LGU?",
+                "LGU student clubs"
+            ],
+            "responses": [
+                "Yes — LGU has societies for sports, literature, technology, culture, and social activities."
+            ]
+        },
+        {
+            "tag": "student_join_club",
+            "patterns": [
+                "How can I join a club or society?",
+                "LGU club membership process"
+            ],
+            "responses": [
+                "Contact the student affairs office or club coordinators; some require membership forms."
+            ]
+        },
+        {
+            "tag": "student_cultural_events",
+            "patterns": [
+                "Are cultural events organized on campus?",
+                "LGU campus events"
+            ],
+            "responses": [
+                "Yes — cultural, national, and university events are organized regularly."
+            ]
+        },
+        {
+            "tag": "student_leadership_opportunities",
+            "patterns": [
+                "Are there student leadership opportunities?",
+                "LGU student council positions"
+            ],
+            "responses": [
+                "Yes — students can hold positions in societies, student councils, and event committees."
+            ]
+        },
+        {
+            "tag": "student_organize_events",
+            "patterns": [
+                "Can students organize their own events?",
+                "LGU student event approval"
+            ],
+            "responses": [
+                "Yes — with approval from the student affairs office."
+            ]
+        },
+        {
+            "tag": "student_volunteer_opportunities",
+            "patterns": [
+                "Are volunteer opportunities available?",
+                "LGU community service activities"
+            ],
+            "responses": [
+                "Yes — students can volunteer in community services and campus activities."
+            ]
+        },
+        {
+            "tag": "student_sports_tournaments",
+            "patterns": [
+                "Are sports tournaments organized?",
+                "LGU inter-university sports"
+            ],
+            "responses": [
+                "Yes — intra- and inter-university tournaments are arranged each year."
+            ]
+        },
+        {
+            "tag": "student_debates_quizzes",
+            "patterns": [
+                "Can students participate in debates and quizzes?",
+                "LGU academic competitions"
+            ],
+            "responses": [
+                "Yes — competitions and academic events are hosted regularly."
+            ]
+        },
+        {
+            "tag": "student_art_clubs",
+            "patterns": [
+                "Are photography or art clubs available?",
+                "LGU media-related clubs"
+            ],
+            "responses": [
+                "Yes — students can join art, photography, and media-related clubs."
+            ]
+        },
+        {
+            "tag": "student_showcase_projects",
+            "patterns": [
+                "Can students showcase projects or research?",
+                "LGU departmental showcases"
+            ],
+            "responses": [
+                "Yes — through exhibitions, seminars, and departmental showcases."
+            ]
+        },
+        {
+            "tag": "policy_code_of_conduct",
+            "patterns": [
+                "Does LGU have a student code of conduct?",
+                "LGU rules and regulations for students"
+            ],
+            "responses": [
+                "Yes — all students must follow university rules and regulations."
+            ]
+        },
+        {
+            "tag": "policy_attendance_requirements",
+            "patterns": [
+                "Are attendance requirements enforced?",
+                "Minimum attendance required at LGU"
+            ],
+            "responses": [
+                "Yes — minimum attendance (usually 75%) is required for each course."
+            ]
+        },
+        {
+            "tag": "policy_appeal_disciplinary",
+            "patterns": [
+                "Can I appeal disciplinary actions?",
+                "LGU disciplinary appeal process"
+            ],
+            "responses": [
+                "Yes — submit appeals to the student affairs or registrar office."
+            ]
+        },
+        {
+            "tag": "policy_mobile_phones",
+            "patterns": [
+                "Are mobile phones allowed in classrooms?",
+                "LGU mobile phone policy"
+            ],
+            "responses": [
+                "Use of mobile phones is restricted in classrooms; follow instructor guidelines."
+            ]
+        },
+        {
+            "tag": "policy_academic_honesty",
+            "patterns": [
+                "Is academic honesty enforced?",
+                "LGU plagiarism and cheating policy"
+            ],
+            "responses": [
+                "Yes — plagiarism, cheating, and misconduct are strictly prohibited."
+            ]
+        },
+        {
+            "tag": "policy_course_withdrawal",
+            "patterns": [
+                "Can I withdraw from a course?",
+                "LGU course withdrawal policy"
+            ],
+            "responses": [
+                "Yes — during the add/drop period as per academic policies."
+            ]
+        },
+        {
+            "tag": "policy_dress_code",
+            "patterns": [
+                "Are there dress code policies?",
+                "LGU student dress code"
+            ],
+            "responses": [
+                "Yes — modest and appropriate attire is expected on campus."
+            ]
+        },
+        {
+            "tag": "policy_smoking",
+            "patterns": [
+                "Is smoking allowed on campus?",
+                "LGU smoking policy"
+            ],
+            "responses": [
+                "No — smoking is prohibited on university premises."
+            ]
+        },
+        {
+            "tag": "policy_external_guests",
+            "patterns": [
+                "Can I host external guests on campus?",
+                "LGU guest policy"
+            ],
+            "responses": [
+                "Guests must register at security and follow campus rules."
+            ]
+        },
+        {
+            "tag": "policy_harassment_bullying",
+            "patterns": [
+                "Are harassment and bullying policies in place?",
+                "LGU anti-harassment policy"
+            ],
+            "responses": [
+                "Yes — LGU has strict anti-harassment and anti-bullying policies."
+            ]
+        },
+        {
+            "tag": "policy_grievance_redressal",
+            "patterns": [
+                "Can students access grievance redressal services?",
+                "LGU student complaint services"
+            ],
+            "responses": [
+                "Yes — submit complaints to the student affairs office or through the portal."
+            ]
+        },
+        {
+            "tag": "policy_online_behavior",
+            "patterns": [
+                "Are there policies for online behavior?",
+                "LGU IT and social media policies"
+            ],
+            "responses": [
+                "Yes — all online activities must comply with university IT and social media policies."
+            ]
+        },
+        {
+            "tag": "policy_academic_appeal",
+            "patterns": [
+                "Can I file an academic appeal?",
+                "LGU appeal for grades or exam results"
+            ],
+            "responses": [
+                "Yes — for grades, exam results, or course issues, appeals can be submitted."
+            ]
+        },
+        {
+            "tag": "policy_vehicle_parking",
+            "patterns": [
+                "Are vehicle parking rules enforced?",
+                "LGU parking rules for students"
+            ],
+            "responses": [
+                "Yes — students must display permits and park in designated areas."
+            ]
+        },
+        {
+            "tag": "policy_lab_safety",
+            "patterns": [
+                "Is there a safety policy for labs and workshops?",
+                "LGU lab safety guidelines"
+            ],
+            "responses": [
+                "Yes — all safety guidelines must be followed strictly."
+            ]
+        },
+        {
+            "tag": "graduation_early",
+            "patterns": [
+                "Can I apply for early graduation?",
+                "LGU early graduation requirements"
+            ],
+            "responses": [
+                "Yes — subject to completion of all courses and credit requirements."
+            ]
+        },
+        {
+            "tag": "graduation_supplementary_exams",
+            "patterns": [
+                "Are supplementary exams held?",
+                "LGU make-up exams for failed courses"
+            ],
+            "responses": [
+                "Yes — for students who fail or miss exams under valid reasons."
+            ]
+        },
+        {
+            "tag": "graduation_credit_requirements",
+            "patterns": [
+                "How many credits are required to graduate?",
+                "Total credit hours for LGU BS degree"
+            ],
+            "responses": [
+                "Typically 130–140 credit hours for BS programs; varies by program."
+            ]
+        },
+        {
+            "tag": "graduation_thesis_required",
+            "patterns": [
+                "Is a thesis required for MS/MPhil programs?",
+                "LGU graduate thesis requirement"
+            ],
+            "responses": [
+                "Yes — most graduate programs require a research thesis or project."
+            ]
+        },
+        {
+            "tag": "graduation_transcript_request",
+            "patterns": [
+                "Can I get a transcript for graduation purposes?",
+                "Requesting final transcript from LGU"
+            ],
+            "responses": [
+                "Yes — request via the registrar or portal."
+            ]
+        },
+        {
+            "tag": "graduation_final_cgpa",
+            "patterns": [
+                "How is the final CGPA calculated?",
+                "LGU final CGPA formula"
+            ],
+            "responses": [
+                "Final CGPA = cumulative grade points / total credit hours completed."
+            ]
+        },
+        {
+            "tag": "graduation_convocation",
+            "patterns": [
+                "Are convocation ceremonies organized?",
+                "LGU graduation ceremony"
+            ],
+            "responses": [
+                "Yes — convocation ceremonies are organized annually for all graduating students."
+            ]
+        },
+        {
+            "tag": "graduation_convocation_incomplete",
+            "patterns": [
+                "Can I attend convocation if I have incomplete grades?",
+                "Attending LGU convocation with pending requirements"
+            ],
+            "responses": [
+                "No — only students who have completed all requirements can attend."
+            ]
+        },
+        {
+            "tag": "graduation_provisional_certificate",
+            "patterns": [
+                "Are provisional certificates issued?",
+                "LGU provisional degree certificate"
+            ],
+            "responses": [
+                "Yes — after completion of all academic requirements, pending final degree issuance."
+            ]
+        },
+        {
+            "tag": "graduation_final_degree_time",
+            "patterns": [
+                "How long does it take to receive the final degree?",
+                "Time to get LGU degree after graduation"
+            ],
+            "responses": [
+                "Typically 2–4 months after graduation clearance."
+            ]
+        },
+        {
+            "tag": "graduation_duplicate_degree",
+            "patterns": [
+                "Can I get a duplicate degree if lost?",
+                "LGU lost degree replacement"
+            ],
+            "responses": [
+                "Yes — apply through the registrar office with required documents."
+            ]
+        },
+        {
+            "tag": "graduation_exam_rules_online",
+            "patterns": [
+                "Are exam rules published online?",
+                "LGU exam instructions on portal"
+            ],
+            "responses": [
+                "Yes — exam instructions and rules are available on the student portal."
+            ]
+        },
+        {
+            "tag": "graduation_special_accommodations",
+            "patterns": [
+                "Can I request special accommodations for exams?",
+                "LGU exam accommodations for disabilities"
+            ],
+            "responses": [
+                "Yes — submit requests to the academic office with valid documentation."
+            ]
+        },
+        {
+            "tag": "graduation_final_year_projects",
+            "patterns": [
+                "Are final year projects mandatory?",
+                "LGU capstone project requirement"
+            ],
+            "responses": [
+                "Yes — all programs require a final year project or capstone."
+            ]
+        },
+        {
+            "tag": "graduation_project_evaluation",
+            "patterns": [
+                "How are final projects evaluated?",
+                "LGU final project grading criteria"
+            ],
+            "responses": [
+                "Projects are evaluated based on report quality, presentation, and supervisor feedback."
+            ]
+        },
+        {
+            "tag": "graduation_conference_presentation",
+            "patterns": [
+                "Can I present my research at conferences?",
+                "LGU student conference participation"
+            ],
+            "responses": [
+                "Yes — students are encouraged to participate in academic conferences."
+            ]
+        },
+        {
+            "tag": "graduation_viva_voce",
+            "patterns": [
+                "Are viva voce exams conducted?",
+                "LGU thesis defense"
+            ],
+            "responses": [
+                "Yes — for thesis or project-based programs."
+            ]
+        },
+        {
+            "tag": "graduation_internship_certificate",
+            "patterns": [
+                "Can I get an internship certificate?",
+                "LGU internship completion certificate"
+            ],
+            "responses": [
+                "Yes — after completing internships, certificates are provided by the organization and department."
+            ]
+        },
+        {
+            "tag": "graduation_internship_credits",
+            "patterns": [
+                "Are credits from internships counted toward degree requirements?",
+                "Internship credit hours at LGU"
+            ],
+            "responses": [
+                "Yes — in programs where internships are mandatory."
+            ]
+        },
+        {
+            "tag": "graduation_degree_verification",
+            "patterns": [
+                "How do I verify my degree after graduation?",
+                "LGU degree verification process"
+            ],
+            "responses": [
+                "Verification can be done through the HEC online portal."
+            ]
+        },
+        {
+            "tag": "support_complaints_suggestions",
+            "patterns": [
+                "How can I submit complaints or suggestions?",
+                "LGU feedback channels"
+            ],
+            "responses": [
+                "Use the portal, suggestion boxes, or student affairs office."
+            ]
+        },
+        {
+            "tag": "support_grievance_committee",
+            "patterns": [
+                "Is there a grievance committee?",
+                "LGU student disputes resolution"
+            ],
+            "responses": [
+                "Yes — to handle student complaints and disputes."
+            ]
+        },
+        {
+            "tag": "support_contact_faculty",
+            "patterns": [
+                "How can I contact faculty for academic support?",
+                "LGU faculty office hours"
+            ],
+            "responses": [
+                "Via email, office hours, or department announcements."
+            ]
+        },
+        {
+            "tag": "support_mental_health",
+            "patterns": [
+                "Are mental health counseling services available?",
+                "LGU student counseling services"
+            ],
+            "responses": [
+                "Yes — student counseling services provide mental health support."
+            ]
+        },
+        {
+            "tag": "support_stay_updated",
+            "patterns": [
+                "How can I stay updated with LGU news and announcements?",
+                "LGU social media channels"
+            ],
+            "responses": [
+                "Follow the official website, portal notices, and social media channels."
+            ]
+        },
+        {
+            "tag": "support_it_help",
+            "patterns": [
+                "Is there IT support for portal or LMS issues?",
+                "LGU IT support contact"
+            ],
+            "responses": [
+                "Yes — contact the IT support team through the portal or IT office."
+            ]
+        },
+        {
+            "tag": "support_printed_materials",
+            "patterns": [
+                "Can I request printed study materials?",
+                "LGU printed notes"
+            ],
+            "responses": [
+                "Yes — library or department staff can assist with printed copies."
+            ]
+        },
+        {
+            "tag": "support_skill_development",
+            "patterns": [
+                "Are there workshops for skill development?",
+                "LGU student skill workshops"
+            ],
+            "responses": [
+                "Yes — LGU organizes workshops for student skill development."
+            ]
+        },
+        {
+            "tag": "support_parent_inquiry",
+            "patterns": [
+                "Can parents inquire about student progress?",
+                "LGU parent contact policy"
+            ],
+            "responses": [
+                "Yes — with proper authorization, parents may contact the academic office."
+            ]
+        },
+        {
+            "tag": "support_emergency_contacts",
+            "patterns": [
+                "Are emergency contacts maintained for students?",
+                "LGU student emergency contact information"
+            ],
+            "responses": [
+                "Yes — students must provide emergency contacts during registration."
+            ]
+        },
+        {
+            "tag": "admin_vice_chancellor",
+            "patterns": [
+                "Who is the current Vice Chancellor (VC) of Lahore Garrison University?",
+                "Name of LGU Vice Chancellor",
+                "what is name of vc in lgu",
+                "tell me the name of vc"
+            ],
+            "responses": [
+                "The current Vice Chancellor of Lahore Garrison University is Major General Muhammad Khalil Dar, HI(M) (Retd.). He serves as the chief executive responsible for academic and administrative leadership of the university."
+            ]
+        },
+        {
+            "tag": "admin_vc_role",
+            "patterns": [
+                "What does the Vice Chancellor do at LGU?",
+                "Role of the LGU VC"
+            ],
+            "responses": [
+                "The Vice Chancellor is responsible for overseeing academic programs, administration, research standards, and ensuring university policies and regulations are upheld."
+            ]
+        },
+        {
+            "tag": "admin_registrar",
+            "patterns": [
+                "Who is the Registrar of Lahore Garrison University?",
+                "Name of LGU Registrar"
+            ],
+            "responses": [
+                "The Registrar of Lahore Garrison University is Brig Adnan Ahmed Khan, SI(M) (Retd.)."
+            ]
+        },
+        {
+            "tag": "admin_vc_appointment",
+            "patterns": [
+                "Who appoints the Vice Chancellor of LGU?",
+                "How is the LGU VC appointed?"
+            ],
+            "responses": [
+                "The Vice Chancellor is appointed by the government on the recommendation of a search committee and approved by the Chancellor."
+            ]
+        },
+        {
+            "tag": "admin_chancellor",
+            "patterns": [
+                "Who is the Chancellor of Lahore Garrison University?",
+                "Name of LGU Chancellor"
+            ],
+            "responses": [
+                "The Chancellor of LGU is the Governor of Punjab, which is a ceremonial role for most public and private universities in the province."
+            ]
+        },
+        {
+            "tag": "dept_psychology",
+            "patterns": [
+                "What department offers psychology at LGU?",
+                "LGU Department of Psychology"
+            ],
+            "responses": [
+                "The Department of Psychology offers psychology programs."
+            ]
+        },
+        {
+            "tag": "dept_management_sciences",
+            "patterns": [
+                "Which department handles business and management sciences?",
+                "LGU business and management department"
+            ],
+            "responses": [
+                "The Department of Management Sciences covers business and management-related programs."
+            ]
+        },
+        {
+            "tag": "dept_criminology_forensics",
+            "patterns": [
+                "Does LGU have a department for criminal investigation studies?",
+                "LGU Criminology and Forensic Sciences department"
+            ],
+            "responses": [
+                "Yes — there is a Department of Criminology and Forensic Sciences."
+            ]
+        },
+        {
+            "tag": "dept_islamic_sciences",
+            "patterns": [
+                "Which department focuses on religion studies?",
+                "LGU Islamic Sciences department"
+            ],
+            "responses": [
+                "The Department of Islamic Sciences handles religion-based programs."
+            ]
+        },
+        {
+            "tag": "dept_mass_communication",
+            "patterns": [
+                "Which department deals with media and communication at LGU?",
+                "LGU Mass Communication department"
+            ],
+            "responses": [
+                "The Department of Mass Communication educates students about media and journalism."
+            ]
+        },
+        {
+            "tag": "dept_international_relations",
+            "patterns": [
+                "What department offers international studies?",
+                "LGU International Relations and Political Sciences department"
+            ],
+            "responses": [
+                "The Department of International Relations and Political Sciences manages those programs."
+            ]
+        },
+        {
+            "tag": "dept_computer_sciences",
+            "patterns": [
+                "Which department offers computer science?",
+                "LGU Computer Sciences department"
+            ],
+            "responses": [
+                "The Department of Computer Sciences provides computer science degrees."
+            ]
+        },
+        {
+            "tag": "dept_software_engineering",
+            "patterns": [
+                "Which department specializes in software engineering?",
+                "LGU Software Engineering department"
+            ],
+            "responses": [
+                "The Department of Software Engineering covers software development and engineering courses."
+            ]
+        },
+        {
+            "tag": "dept_information_technology",
+            "patterns": [
+                "What department offers IT programs?",
+                "LGU Information Technology department"
+            ],
+            "responses": [
+                "The Department of Information Technology teaches information systems and technologies."
+            ]
+        },
+        {
+            "tag": "dept_english_language",
+            "patterns": [
+                "Which department focuses on English language studies?",
+                "LGU English Language and Literature department"
+            ],
+            "responses": [
+                "The Department of English Language and Literature offers English degree programs."
+            ]
+        },
+        {
+            "tag": "dept_urdu_language",
+            "patterns": [
+                "Does LGU offer Urdu language programs?",
+                "LGU Department of Urdu"
+            ],
+            "responses": [
+                "Yes — the Department of Urdu offers Urdu language programs."
+            ]
+        },
+        {
+            "tag": "dept_biology",
+            "patterns": [
+                "Which department covers biology?",
+                "LGU Department of Biology"
+            ],
+            "responses": [
+                "The Department of Biology manages biological sciences programs."
+            ]
+        },
+        {
+            "tag": "dept_physics",
+            "patterns": [
+                "Which department is responsible for physics courses?",
+                "LGU Department of Physics"
+            ],
+            "responses": [
+                "The Department of Physics teaches physics courses."
+            ]
+        },
+        {
+            "tag": "dept_chemistry",
+            "patterns": [
+                "Does LGU have a chemistry department?",
+                "LGU Department of Chemistry"
+            ],
+            "responses": [
+                "Yes — the Department of Chemistry offers chemistry studies."
+            ]
+        },
+        {
+            "tag": "dept_mathematics",
+            "patterns": [
+                "Which department handles mathematics?",
+                "LGU Department of Mathematics"
+            ],
+            "responses": [
+                "The Department of Mathematics provides math-related programs."
+            ]
+        },
+        {
+            "tag": "program_bs_computer_science",
+            "patterns": [
+                "Does LGU offer Bachelor’s in Computer Science?",
+                "BS Computer Science at LGU"
+            ],
+            "responses": [
+                "Yes — LGU offers a BS Computer Science program."
+            ]
+        },
+        {
+            "tag": "program_bs_software_engineering",
+            "patterns": [
+                "Can students study Software Engineering at LGU?",
+                "BS Software Engineering at LGU"
+            ],
+            "responses": [
+                "Yes — BS Software Engineering is available."
+            ]
+        },
+        {
+            "tag": "program_bs_information_technology",
+            "patterns": [
+                "Is BS Information Technology offered at LGU?",
+                "LGU BS IT program"
+            ],
+            "responses": [
+                "Yes — BS Information Technology is part of the IT department."
+            ]
+        },
+        {
+            "tag": "program_cybersecurity_forensics",
+            "patterns": [
+                "Does LGU offer Cybersecurity or Digital Forensics programs?",
+                "LGU cybersecurity programs"
+            ],
+            "responses": [
+                "LGU has been known to offer programs related to digital forensics and cybersecurity, including research initiatives in that field."
+            ]
+        },
+        {
+            "tag": "program_mass_communication",
+            "patterns": [
+                "Can I study Mass Communication at LGU?",
+                "LGU Mass Communication degree"
+            ],
+            "responses": [
+                "Yes — Mass Communication is offered by the respective department."
+            ]
+        },
+        {
+            "tag": "program_ms_mphil_availability",
+            "patterns": [
+                "Are MS or MPhil programs available at LGU?",
+                "LGU graduate level programs"
+            ],
+            "responses": [
+                "Yes — graduate-level programs such as MS/MPhil are available in selected disciplines."
+            ]
+        }
+    ]
+}

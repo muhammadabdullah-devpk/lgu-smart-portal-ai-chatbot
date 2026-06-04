@@ -1,0 +1,369 @@
+{
+    "intents": [
+        {
+            "tag": "general_info_what_is_lgu",
+            "patterns": [
+                "What is Lahore Garrison University (LGU)?",
+                "Tell me about LGU",
+                "What kind of university is LGU?"
+            ],
+            "responses": [
+                "LGU is a recognized private university in Lahore offering undergraduate, graduate, and postgraduate programs across multiple disciplines."
+            ]
+        },
+        {
+            "tag": "Chatbot Name",
+            "patterns": [
+                "What's your name?",
+                "What should we call you?",
+                "Who are you?"
+            ],
+            "responses": [
+                "I don’t have an official name, but some people like to call me the LGU Assistant, ready to help with a smile!"
+            ]
+        },
+        {
+            "tag": "general_info_lgu_location",
+            "patterns": [
+                "Where is LGU located?",
+                "What is the address of Lahore Garrison University?",
+                "LGU location"
+            ],
+            "responses": [
+                "LGU is located in DHA Phase‑VI Sector C, Lahore, Punjab, Pakistan."
+            ]
+        },
+        {
+            "tag": "general_info_lgu_established",
+            "patterns": [
+                "When was LGU established?",
+                "LGU establishment year"
+            ],
+            "responses": [
+                "LGU was established in 2010."
+            ]
+        },
+        {
+            "tag": "general_info_lgu_hec_recognition",
+            "patterns": [
+                "Is LGU recognized by HEC?",
+                "Is Lahore Garrison University HEC recognized?"
+            ],
+            "responses": [
+                "Yes — LGU is recognized by the Higher Education Commission of Pakistan."
+            ]
+        },
+        {
+            "tag": "general_info_lgu_motto",
+            "patterns": [
+                "What is the motto of LGU?",
+                "LGU's slogan"
+            ],
+            "responses": [
+                "“Nurturing the Future of Pakistan in an Excellent Environment.”"
+            ]
+        },
+        {
+            "tag": "general_info_lgu_website",
+            "patterns": [
+                "What is the official website of LGU?",
+                "LGU website link"
+            ],
+            "responses": [
+                "The official website of LGU is https://www.lgu.edu.pk"
+            ]
+        },
+        {
+            "tag": "general_info_lgu_contact",
+            "patterns": [
+                "How can I contact LGU?",
+                "LGU contact number and email"
+            ],
+            "responses": [
+                "You can contact LGU at +92‑42‑37181827 or via email at info@lgu.edu.pk"
+            ]
+        },
+        {
+            "tag": "general_info_lgu_alumni",
+            "patterns": [
+                "Does LGU have an alumni network?",
+                "LGU alumni portal"
+            ],
+            "responses": [
+                "Yes — LGU’s Alumni Portal allows graduates to stay connected and network."
+            ]
+        },
+        {
+            "tag": "general_info_lgu_research_journals",
+            "patterns": [
+                "Does LGU publish research journals?",
+                "LGU academic publications"
+            ],
+            "responses": [
+                "Yes — LGU publishes several research journals across departments."
+            ]
+        },
+        {
+            "tag": "general_info_lgu_faculties",
+            "patterns": [
+                "What are the faculties of LGU?",
+                "List of LGU faculties"
+            ],
+            "responses": [
+                "LGU has four main faculties: Social Sciences, Computer Sciences, Languages, and Basic Sciences."
+            ]
+        },
+        {
+            "tag": "admissions_how_to_apply",
+            "patterns": [
+                "How do I apply for admission?",
+                "How to apply",
+                "LGU admission application process"
+            ],
+            "responses": [
+                "You can apply online through the LGU Admissions Portal."
+            ]
+        },
+        {
+            "tag": "admissions_required_documents",
+            "patterns": [
+                "What documents are required for admission?",
+                "Documents needed for LGU admission"
+            ],
+            "responses": [
+                "Academic transcripts, ID (B-form/CNIC), photographs, and other program-specific documents are required."
+            ]
+        },
+        {
+            "tag": "admissions_multiple_programs",
+            "patterns": [
+                "Can I apply for more than one program?",
+                "Applying to multiple LGU programs"
+            ],
+            "responses": [
+                "One application per program is generally allowed."
+            ]
+        },
+        {
+            "tag": "admissions_ug_eligibility",
+            "patterns": [
+                "What is the minimum eligibility for undergraduate admission?",
+                "Minimum marks for BS admission at LGU",
+                "What is admision ciretria in lgu "
+            ],
+            "responses": [
+                "The minimum eligibility is 50% marks in the previous level (matric/intermediate), depending on the program."
+            ]
+        },
+        {
+            "tag": "admissions_grad_eligibility",
+            "patterns": [
+                "What is the minimum eligibility for graduate admission?",
+                "Minimum CGPA for MS/MPhil admission at LGU"
+            ],
+            "responses": [
+                "The minimum eligibility for graduate admission is a Bachelor’s degree with at least 2.0 CGPA or equivalent marks."
+            ]
+        },
+        {
+            "tag": "admissions_entrance_test",
+            "patterns": [
+                "Is there an entrance test?",
+                "Does LGU require an entry test?"
+            ],
+            "responses": [
+                "Some programs may require entry tests or interviews."
+            ]
+        },
+        {
+            "tag": "admissions_check_status",
+            "patterns": [
+                "How can I check my admission status?",
+                "Check LGU application status"
+            ],
+            "responses": [
+                "Log in to the admissions portal and select “Check Admission Status.”"
+            ]
+        },
+        {
+            "tag": "admissions_on_merit_status",
+            "patterns": [
+                "What does “On Merit” status mean?",
+                "What is merit of lgu ",
+                "Meaning of 'On Merit' in LGU admission"
+            ],
+            "responses": [
+                "It means your application has been shortlisted based on academic performance."
+            ]
+        },
+        {
+            "tag": "admissions_edit_application",
+            "patterns": [
+                "How can I edit my application?",
+                "Change LGU admission form details"
+            ],
+            "responses": [
+                "Use the “Edit Application” feature on the admissions portal before the deadline."
+            ]
+        },
+        {
+            "tag": "admissions_merit_list_timing",
+            "patterns": [
+                "When are merit lists published?",
+                "LGU merit list announcement date"
+            ],
+            "responses": [
+                "Merit lists are posted on the portal once evaluations are complete."
+            ]
+        },
+        {
+            "tag": "admissions_scholarship_application",
+            "patterns": [
+                "Can I apply for scholarships during admission?",
+                "Scholarship application with admission form",
+                "does lgu provide scholarship"
+            ],
+            "responses": [
+                "Yes — scholarship applications can be submitted with the admission form."
+            ]
+        },
+        {
+            "tag": "admissions_defence_concessions",
+            "patterns": [
+                "Are there concessions for defence personnel?",
+                "Fee concession for armed forces wards at LGU"
+            ],
+            "responses": [
+                "Yes — wards of armed forces may receive fee concessions."
+            ]
+        },
+        {
+            "tag": "admissions_spring_deadline",
+            "patterns": [
+                "What is the Spring admission deadline?",
+                "Deadline for LGU Spring admissions"
+            ],
+            "responses": [
+                "Exact dates are published on the portal each semester."
+            ]
+        },
+        {
+            "tag": "admissions_international_students",
+            "patterns": [
+                "Can international students apply?",
+                "LGU admission for foreign students"
+            ],
+            "responses": [
+                "Yes — international students can apply following the same portal procedure."]
+        },
+        {
+            "tag": "admissions_age_limits",
+            "patterns": [
+                "Are there age limits for admission?",
+                "LGU age restriction for students"
+            ],
+            "responses": [
+                "No strict age limits; eligibility is based on academic qualifications."
+            ]
+        },
+        {
+            "tag": "programs_bs_offered",
+            "patterns": [
+                "Which BS programs are offered?",
+                "List of undergraduate programs at LGU"
+            ],
+            "responses": [
+                "BS Computer Science, Software Engineering, IT, Psychology, Mass Communication, Economics, and more are offered."
+            ]
+        },
+        {
+            "tag": "programs_ms_mphil_offered",
+            "patterns": [
+                "Are MS/MPhil programs offered?",
+                "LGU graduate programs"
+            ],
+            "responses": [
+                "Yes — LGU offers MS/MPhil programs in selected departments."
+            ]
+        },
+        {
+            "tag": "programs_mba_offered",
+            "patterns": [
+                "Are MBA programs available?",
+                "Does LGU have an MBA program?"
+            ],
+            "responses": [
+                "Yes — LGU offers MBA programs."
+            ]
+        },
+        {
+            "tag": "programs_switch_majors",
+            "patterns": [
+                "Can I switch majors after admission?",
+                "Changing department at LGU"
+            ],
+            "responses": [
+                "Department changes are subject to availability and approval."
+            ]
+        },
+        {
+            "tag": "programs_list_departments",
+            "patterns": [
+                "How can I see the list of departments?",
+                "Where to find LGU departments list"
+            ],
+            "responses": [
+                "Departments are listed on the official website and student portal."
+            ]
+        },
+        {
+            "tag": "programs_short_courses",
+            "patterns": [
+                "Are there short courses or diplomas?",
+                "LGU diplomas and certifications"
+            ],
+            "responses": [
+                "Yes — LGU may offer short courses; check announcements on the portal."
+            ]
+        },
+        {
+            "tag": "programs_online_hybrid",
+            "patterns": [
+                "Are online or hybrid programs available?",
+                "Does LGU offer distance learning?"
+            ],
+            "responses": [
+                "LGU primarily offers on-campus programs; check portal for updates."
+            ]
+        },
+        {
+            "tag": "programs_multiple_simultaneously",
+            "patterns": [
+                "Can I enroll in multiple programs simultaneously?",
+                "Studying two programs at once at LGU"
+            ],
+            "responses": [
+                "No — students are generally allowed only one active program at a time."
+            ]
+        },
+        {
+            "tag": "programs_professional_certifications",
+            "patterns": [
+                "Does LGU offer professional certifications?",
+                "Certifications offered by LGU"
+            ],
+            "responses": [
+                "Some departments offer certifications in addition to degrees."
+            ]
+        },
+        {
+            "tag": "programs_evening_weekend",
+            "patterns": [
+                "Are evening or weekend programs offered?",
+                "LGU part-time programs"
+            ],
+            "responses": [
+                "Currently, most programs are daytime; check portal for special programs."
+            ]
+        },
+        {

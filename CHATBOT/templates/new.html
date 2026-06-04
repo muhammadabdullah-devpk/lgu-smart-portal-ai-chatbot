@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LGU Admissions | Lahore Garrison University</title>
+    {% load static %}
+    <link rel="shortcut icon" href="{% static 'images\loger.png' %}" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'Cssfiles\new.css' %}">
+</head>
+
+<body>
+    <form style="display:none;">{% csrf_token %}</form>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-container">
+                <div class="logo-text">LGU<span>Admissions</span></div>
+            </div>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#" class="nav-link active" data-page="home">Home</a>
+                <a href="#" class="nav-link" data-page="programs">Programs</a>
+                <a href="#" class="nav-link" data-page="timeline">Timeline</a>
+                <a href="#" class="nav-link" data-page="contact">Contact</a>
+                <button class="nav-button" id="applyNowBtn">
+                    <i class="fas fa-paper-plane"></i> Apply Now
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+            <div class="hero-content">
+                <h1 class="hero-title">Lahore Garrison University Admissions SP-2026</h1>
+                <p class="hero-subtitle">Join & Learn Anywhere, Anytime. Do something now; your future self will thank
+                    you for later.</p>
+
+                <div class="hero-badges">
+                    <div class="hero-badge">
+                        <i class="fas fa-calendar-check"></i> Spring 2026 Admissions Open
+                    </div>
+                    <div class="hero-badge">
+                        <i class="fas fa-graduation-cap"></i> 50+ Programs Available
+                    </div>
+                    <div class="hero-badge">
+                        <i class="fas fa-award"></i> Merit Scholarships Up to 100%
+                    </div>
+                </div>
+
+                <div class="hero-buttons">
+                    <button class="btn-primary" id="heroApplyBtn">
+                        <i class="fas fa-rocket"></i> Apply Now
+                    </button>
+                    <button class="btn-secondary" id="exploreProgramsBtn">
+                        <i class="fas fa-search"></i> Explore Programs
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Programs Section -->
+        <section class="page-section" id="programs">
+            <div class="section-header">
+                <p class="section-subtitle">Academic Excellence</p>
+                <h2 class="section-title">Our Programs & Degrees</h2>
+                <p class="section-desc">Choose from a wide range of undergraduate, graduate, and doctoral programs
+                    designed to prepare you for the future.</p>
+            </div>
+
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-image">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="program-content">
+                        <h3 class="program-title">Computer Science & IT</h3>
+                        <p class="program-desc">Cutting-edge programs in Software Engineering, Data Science, AI,
+                            Cybersecurity, and more.</p>
+                        <ul class="program-features">
+                            <li><i class="fas fa-check-circle"></i> BS Computer Science</li>
+                            <li><i class="fas fa-check-circle"></i> BS Software Engineering</li>
+                            <li><i class="fas fa-check-circle"></i> BS Data Science</li>
+                            <li><i class="fas fa-check-circle"></i> MS Computer Science</li>
+                        </ul>
+                        <a href="#" class="program-link">
+                            Explore Programs <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-image">
+                        <i class="fas fa-business-time"></i>
+                    </div>
+                    <div class="program-content">
+                        <h3 class="program-title">Business & Management</h3>
+                        <p class="program-desc">Develop leadership skills with our BBA, MBA, and specialized business
+                            programs.</p>
+                        <ul class="program-features">
+                            <li><i class="fas fa-check-circle"></i> BBA (Hons)</li>
+                            <li><i class="fas fa-check-circle"></i> BS Accounting & Finance</li>
+                            <li><i class="fas fa-check-circle"></i> MBA Executive</li>
+                            <li><i class="fas fa-check-circle"></i> MS Management Sciences</li>
+                        </ul>
+                        <a href="#" class="program-link">
+                            Explore Programs <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-image">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="program-content">
+                        <h3 class="program-title">Engineering</h3>
+                        <p class="program-desc">Hands-on engineering programs with state-of-the-art labs and industry
+                            collaborations.</p>
+                        <ul class="program-features">
+                            <li><i class="fas fa-check-circle"></i> BS Electrical Engineering</li>
+                            <li><i class="fas fa-check-circle"></i> BS Civil Engineering</li>
+                            <li><i class="fas fa-check-circle"></i> BS Mechanical Engineering</li>
+                            <li><i class="fas fa-check-circle"></i> BS Computer Engineering</li>
+                        </ul>
+                        <a href="#" class="program-link">
+                            Explore Programs <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="stats-container">
+                <div class="stat-item">
+                    <div class="stat-number">15,000+</div>
+                    <div class="stat-label">Successful Alumni</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">200+</div>
+                    <div class="stat-label">Expert Faculty</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Degree Programs</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">95%</div>
+                    <div class="stat-label">Graduate Employment Rate</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section class="page-section" id="timeline">
+            <div class="section-header">
+                <p class="section-subtitle">Admissions Process</p>
+                <h2 class="section-title">Admissions Timeline SP-2026</h2>
+                <p class="section-desc">Follow our step-by-step admissions process to secure your seat at LGU.</p>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar-alt"></i> Oct 1 - Dec 15, 2025
+                        </div>
+                        <h3 class="timeline-title">Application Submission</h3>
+                        <p>Complete and submit your online application along with required documents before the
+                            deadline.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar-alt"></i> Dec 20-30, 2025
+                        </div>
+                        <h3 class="timeline-title">Entry Tests & Interviews</h3>
+                        <p>Appear for program-specific entry tests and interviews as scheduled.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar-alt"></i> Jan 10, 2026
+                        </div>
+                        <h3 class="timeline-title">Merit List Announcement</h3>
+                        <p>Check your admission status and merit position on the university portal.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar-alt"></i> Jan 15-25, 2026
+                        </div>
+                        <h3 class="timeline-title">Fee Submission & Enrollment</h3>
+                        <p>Complete your enrollment by submitting required fees and documents.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">
+                            <i class="fas fa-calendar-alt"></i> Feb 2, 2026
+                        </div>
+                        <h3 class="timeline-title">Orientation & Classes Begin</h3>
+                        <p>Welcome to LGU! Attend orientation and begin your academic journey.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="page-section" id="contact">
+            <div class="section-header">
+                <p class="section-subtitle">Get In Touch</p>
+                <h2 class="section-title">Contact Admissions Office</h2>
+                <p class="section-desc">Have questions? Our admissions team is here to help you with the application
+                    process.</p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Visit Our Campus</h4>
+                            <p>Sector C, DHA Phase 6, Lahore, Pakistan</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Call Us</h4>
+                            <p>+92-42-111-000-000</p>
+                            <p>Mon-Fri, 9:00 AM - 5:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email Us</h4>
+                            <p>admissions@lgu.edu.pk</p>
+                            <p>info@lgu.edu.pk</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="inquiryForm">
+                        <div class="form-group">
+                            <label class="form-label" for="name">Full Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="email">Email Address</label>
+                            <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="phone">Phone Number</label>
+                            <input type="tel" id="phone" class="form-control" placeholder="Enter your phone number">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="program">Program of Interest</label>
+                            <select id="program" class="form-control" required>
+                                <option value="">Select a program</option>
+                                <option value="cs">Computer Science</option>
+                                <option value="business">Business Administration</option>
+                                <option value="engineering">Engineering</option>
+                                <option value="sciences">Social Sciences</option>
+                                <option value="law">Law</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="message">Your Message</label>
+                            <textarea id="message" class="form-control" rows="4"
+                                placeholder="How can we help you?"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane"></i> Send Inquiry
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>LGU Admissions</h3>
+                <p>Lahore Garrison University is committed to providing quality education and transforming students into
+                    future leaders.</p>
+                <div style="margin-top: 20px; display: flex; gap: 15px;">
+                    <a href="#" style="color: white; font-size: 1.2rem;"><i class="fab fa-facebook"></i></a>
+                    <a href="#" style="color: white; font-size: 1.2rem;"><i class="fab fa-twitter"></i></a>
+                    <a href="#" style="color: white; font-size: 1.2rem;"><i class="fab fa-instagram"></i></a>
+                    <a href="#" style="color: white; font-size: 1.2rem;"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" style="color: white; font-size: 1.2rem;"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="#programs"><i class="fas fa-chevron-right"></i> Programs</a></li>
+                    <li><a href="#timeline"><i class="fas fa-chevron-right"></i> Admissions Timeline</a></li>
+                    <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Download Prospectus</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Admissions Info</h3>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Apply Online</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Check Application Status</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Entry Test Schedule</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Fee Structure</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i> Scholarship Criteria</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 Lahore Garrison University. All rights reserved. | Admissions SP-2026</p>
+            <p style="margin-top: 10px;">Designed with <i class="fas fa-heart" style="color: #ffc107;"></i> for future
+                leaders</p>
+        </div>
+    </footer>
+
+    <!-- Chatbot Overlay for Mobile -->
+    <div class="chat-overlay" id="chatOverlay"></div>
+
+    <!-- Chatbot Container -->
+    <div class="chatbot-container">
+        <div class="voice-indicator" id="voiceIndicator">
+            <i class="fas fa-microphone"></i>
+            <span>Listening... Speak now</span>
+        </div>
+
+        <div class="chat-window" id="chatWindow">
+            <!-- Chat Header -->
+            <div class="chat-header">
+                <div class="chat-header-info">
+                    <div class="chat-logo">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="chat-title">
+                        <h3>LGU Admissions Assistant</h3>
+                        <p>Admissions SP-2026 – Apply Now</p>
+                    </div>
+                </div>
+                <div class="chat-controls">
+                    <button id="minimizeButton">
+                        <i class="fas fa-minus"></i>
+                    </button>
+                    <button id="closeButton">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Chat Body -->
+            <div class="chat-body" id="chatBody">
+                <!-- Welcome Message -->
+                <div class="welcome-message">
+                    <h4>Welcome to LGU Admissions Assistant</h4>
+                    <p>I'm here to help you with admissions, programs, eligibility, deadlines, and more. How can I
+                        assist you today?</p>
+                </div>
+
+                <!-- Quick Questions Chips -->
+                <div class="chat-quick-questions" id="quickQuestions">
+                    <button class="chat-quick-btn" data-question="How to apply?">How to apply?</button>
+                    <button class="chat-quick-btn" data-question="Application deadline?">Application deadline?</button>
+                    <button class="chat-quick-btn" data-question="Scholarships available?">Scholarships?</button>
+                </div>
+            </div>
+
+            <!-- Chat Footer -->
+            <div class="chat-footer">
+                <div class="input-container">
+                    <input type="text" class="message-input" id="messageInput"
+                        placeholder="Ask about admissions, programs, or eligibility..." autocomplete="off">
+                    <button class="voice-button" id="voiceButton">
+                        <i class="fas fa-microphone"></i>
+                    </button>
+                    <button class="send-button" id="sendButton">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chatbot Button with Robot Icon -->
+        <button class="chatbot-button" id="chatbotButton">
+            <div class="robot-icon">
+                <i class="fas fa-robot"></i>
+            </div>
+            <div class="notification-badge" id="notificationBadge">1</div>
+        </button>
+    </div>
+
+    <!-- Audio Elements -->
+    <audio id="notificationSound" preload="auto">
+        <source src="https://assets.mixkit.co/sfx/preview/mixkit-correct-answer-tone-2870.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="sendSound" preload="auto">
+        <source src="https://assets.mixkit.co/sfx/preview/mixkit-message-pop-alert-2354.mp3" type="audio/mpeg">
+    </audio>
+
+   <script src="{% static 'JSfiles\new.js' %}"></script>
+</body>
+
+</html>
