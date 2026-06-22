@@ -1,8 +1,23 @@
-# LGU Smart Portal with AI Integration
+# LGU Smart Portal AI Chatbot
 
-Brief: LGU chatbot webapp — Django backend, intents in `static/intents1.json`, TTS support.
+## 🚀 Overview
+AI-powered chatbot web application for university portal using Django.
 
-Usage:
-- Run locally: `python CHATBOT/manage.py runserver`
-- API: POST `/chat` (returns JSON with `botResponse` and `audio_b64`)
+## 🧠 Features
+- AI Chatbot with intent recognition
+- Django backend API
+- Text-to-Speech (TTS) support
+- JSON-based intent system
+- Fast API response system
 
+## 🛠 Tech Stack
+- Python (Django)
+- JavaScript
+- HTML/CSS
+- JSON (Intents)
+
+## ⚙️ Setup Instructions
+```bash
+git clone <repo>
+cd CHATBOT
+python manage.py runserver
