@@ -27,18 +27,6 @@ It simulates a smart assistant that understands user intents and provides automa
 
 ---
 
-## 📁 Project Structure
-lgu-smart-portal-ai-chatbot/
-│
-├── CHATBOT/          Django project files
-├── static/           CSS, JS, images
-├── .vscode/          Editor settings
-├── db.sqlite3        Database
-├── manage.py         Django entry point
-└── README.md
-
----
-
 ## ⚙️ Installation & Setup
 
 1. Clone Repository:
