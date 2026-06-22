@@ -1,23 +1,78 @@
-# LGU Smart Portal AI Chatbot
+🚀 LGU Smart Portal AI Chatbot (UPDATED PROFESSIONAL README)
+# 🤖 LGU Smart Portal AI Chatbot
 
 ## 🚀 Overview
-AI-powered chatbot web application for university portal using Django.
+The **LGU Smart Portal AI Chatbot** is a Django-based intelligent web application designed to assist university users with automated responses using Natural Language Processing (NLP) techniques.  
+
+It simulates a smart assistant capable of understanding user intents and responding accordingly with optional Text-to-Speech (TTS) support.
+
+---
 
 ## 🧠 Features
-- AI Chatbot with intent recognition
-- Django backend API
-- Text-to-Speech (TTS) support
-- JSON-based intent system
-- Fast API response system
+- 💬 AI-powered chatbot with intent recognition system  
+- ⚡ Fast backend built with Django  
+- 🧾 JSON-based intent classification system  
+- 🔊 Text-to-Speech (TTS) response support  
+- 🌐 REST API endpoint for chat communication  
+- 🧠 Lightweight rule-based NLP logic  
+- 📱 Responsive web interface  
+
+---
 
 ## 🛠 Tech Stack
 - Python (Django)
 - JavaScript
-- HTML/CSS
-- JSON (Intents)
+- HTML5
+- CSS3
+- JSON (Intent dataset)
 
-## ⚙️ Setup Instructions
+---
+
+## 📁 Project Structure
+
+lgu-smart-portal-ai-chatbot/
+│
+├── CHATBOT/ # Django project files
+├── static/ # CSS, JS, images
+├── .vscode/ # Editor settings
+├── db.sqlite3 # Database
+├── manage.py # Django entry point
+└── README.md
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
 ```bash
-git clone <repo>
-cd CHATBOT
+git clone https://github.com/muhammadabdullah-devpk/lgu-smart-portal-ai-chatbot.git
+cd lgu-smart-portal-ai-chatbot
+2️⃣ Create Virtual Environment (Recommended)
+python -m venv venv
+
+Activate:
+
+Windows:
+venv\Scripts\activate
+Mac/Linux:
+source venv/bin/activate
+3️⃣ Install Dependencies
+pip install -r requirements.txt
+4️⃣ Run Server
 python manage.py runserver
+📡 API Endpoint
+POST /chat
+
+Request:
+
+{
+  "message": "Hello"
+}
+
+Response:
+
+{
+  "botResponse": "Hi! How can I help you?",
+  "audio_b64": "base64_audio_data"
+}
